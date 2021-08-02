@@ -3,4 +3,6 @@ Utilized a python web scraper to access RateMyProfessor.com data for the top 50 
 
 Our project frontend is implemented with QtCreator IDE and uses Qt specific functions. 
 
+Sources folder contains ratemyprof.cpp which implements the menu options based on what the input is from the front end. 
+
 Our Demonstration youtube video: https://youtu.be/kPjF_EjQG0Q
