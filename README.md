@@ -6,3 +6,4 @@ Our project frontend is implemented with QtCreator IDE and uses Qt specific func
 Sources folder contains ratemyprof.cpp which implements the menu options based on what the input is from the front end. 
 
 Our Demonstration youtube video: https://youtu.be/kPjF_EjQG0Q
+Our Documentation for the project can be found here: https://docs.google.com/document/d/1g9_we1CssqAfudTRQSUoFrrmxCigm2QPvng0YQ_Qq3U/edit?usp=sharing
