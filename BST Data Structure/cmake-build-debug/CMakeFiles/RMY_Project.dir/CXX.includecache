@@ -1,0 +1,70 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/tonyj/CLionProjects/RMY Project/BST.h
+Node.h
+C:/Users/tonyj/CLionProjects/RMY Project/Node.h
+unordered_map
+-
+queue
+-
+vector
+-
+algorithm
+-
+University.h
+C:/Users/tonyj/CLionProjects/RMY Project/University.h
+Professor.h
+C:/Users/tonyj/CLionProjects/RMY Project/Professor.h
+
+C:/Users/tonyj/CLionProjects/RMY Project/Node.h
+University.h
+C:/Users/tonyj/CLionProjects/RMY Project/University.h
+
+C:/Users/tonyj/CLionProjects/RMY Project/Professor.h
+iomanip
+-
+iostream
+-
+fstream
+-
+vector
+-
+sstream
+-
+
+C:/Users/tonyj/CLionProjects/RMY Project/University.h
+map
+-
+Professor.h
+C:/Users/tonyj/CLionProjects/RMY Project/Professor.h
+
+C:/Users/tonyj/CLionProjects/RMY Project/main.cpp
+iomanip
+-
+iostream
+-
+fstream
+-
+vector
+-
+string
+-
+sstream
+-
+queue
+-
+stdio.h
+-
+ctype.h
+-
+Professor.h
+C:/Users/tonyj/CLionProjects/RMY Project/Professor.h
+BST.h
+C:/Users/tonyj/CLionProjects/RMY Project/BST.h
+

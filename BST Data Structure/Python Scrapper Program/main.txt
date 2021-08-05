@@ -1,0 +1,254 @@
+from RMPClass import RateMyProfScraper
+#Prints out Raw data from Rate My Professor
+
+def Print(List):
+    for x in List:
+        print(x)
+
+
+# Prominent Florida State Universities
+# https://en.wikipedia.org/wiki/List_of_colleges_and_universities_in_Florida#State_University_System
+
+UF = RateMyProfScraper(1100)
+# University of Florida (Gainesville)
+List = UF.createprofessorlist()
+Print(List)
+
+temp = RateMyProfScraper(1533)
+# Florida A&M University (Tallahassee)
+List = temp.createprofessorlist()
+Print(List)
+
+temp = RateMyProfScraper(1268)
+# Florida Atlantic University (Boca Raton)
+List = temp.createprofessorlist()
+Print(List)
+
+temp = RateMyProfScraper(3988)
+# Florida Gulf Coast University (Fort Myers)
+List = temp.createprofessorlist()
+Print(List)
+
+temp = RateMyProfScraper(1322)
+# Florida International University (Miami)
+List = temp.createprofessorlist()
+Print(List)
+
+
+temp = RateMyProfScraper(16721)
+# Florida Polytechnic University (Lakeland)
+List = temp.createprofessorlist()
+Print(List)
+
+temp = RateMyProfScraper(1237)
+# Florida State University (Tallahassee)
+List = temp.createprofessorlist()
+Print(List)
+
+temp = RateMyProfScraper(1593)
+# New College of Florida (Sarasota)
+List = temp.createprofessorlist()
+Print(List)
+
+
+temp = RateMyProfScraper(1082)
+# University of Central Florida (Orlando)
+List = temp.createprofessorlist()
+Print(List)
+
+temp = RateMyProfScraper(1546)
+# University of North Florida (Jacksonville)
+List = temp.createprofessorlist()
+Print(List)
+
+temp = RateMyProfScraper(1262)
+# University of South Florida (Tampa)
+List = temp.createprofessorlist()
+Print(List)
+
+temp = RateMyProfScraper(3968)
+# University of West Florida (Pensacola)
+List = temp.createprofessorlist()
+Print(List)
+
+
+# 2021 Best National University Rankings
+# https://www.usnews.com/best-colleges/rankings/national-universities?_page=2&_mode=table
+
+
+Princeton = RateMyProfScraper(780)
+List = Princeton.createprofessorlist()
+Print(List)
+
+Harvard = RateMyProfScraper(399)
+List = (Harvard.createprofessorlist())
+Print(List)
+
+
+Columbia = RateMyProfScraper(278)
+List = (Columbia.createprofessorlist())
+Print(List)
+
+MIT = RateMyProfScraper(580)
+List = (MIT.createprofessorlist())
+Print(List)
+#
+Yale = RateMyProfScraper(1222)
+List = (Yale.createprofessorlist())
+Print(List)
+
+Stanford = RateMyProfScraper(953)
+List = (Stanford.createprofessorlist())
+Print(List)
+
+UChi = RateMyProfScraper(1085)
+List = (UChi.createprofessorlist())
+Print(List)
+
+UPenn = RateMyProfScraper(1275)
+List = (UPenn.createprofessorlist())
+Print(List)
+
+CIT = RateMyProfScraper(148)
+List = (CIT.createprofessorlist())
+Print(List)
+
+JohnH = RateMyProfScraper(464)
+List = (JohnH.createprofessorlist())
+Print(List)
+
+NW = RateMyProfScraper(709)
+List = (NW.createprofessorlist())
+Print(List)
+
+Duke = RateMyProfScraper(1350)
+List = (Duke.createprofessorlist())
+Print(List)
+
+Darthmouth = RateMyProfScraper(1339)
+List = (Darthmouth.createprofessorlist())
+Print(List)
+
+Brown = RateMyProfScraper(137)
+List = (Brown.createprofessorlist())
+Print(List)
+
+Vander = RateMyProfScraper(4002)
+List = (Vander.createprofessorlist())
+Print(List)
+
+Rice = RateMyProfScraper(799)
+List = (Rice.createprofessorlist())
+Print(List)
+
+WashU = RateMyProfScraper(1147)
+List = (WashU.createprofessorlist())
+Print(List)
+
+Cornell = RateMyProfScraper(298)
+List = (Cornell.createprofessorlist())
+Print(List)
+
+UND = RateMyProfScraper(1576)
+List = (UND.createprofessorlist())
+Print(List)
+
+UCLA = RateMyProfScraper(1075)
+List = (UCLA.createprofessorlist())
+Print(List)
+
+temp = RateMyProfScraper(355)
+List = temp.createprofessorlist()
+Print(List)
+
+temp = RateMyProfScraper(1258)
+List = temp.createprofessorlist()
+Print(List)
+
+temp = RateMyProfScraper(1381)
+List = temp.createprofessorlist()
+Print(List)
+
+temp = RateMyProfScraper(181)
+List = temp.createprofessorlist()
+Print(List)
+
+temp = RateMyProfScraper(1277)
+List = temp.createprofessorlist()
+Print(List)
+
+temp = RateMyProfScraper(1232)
+List = temp.createprofessorlist()
+Print(List)
+
+temp = RateMyProfScraper(1130)
+List = temp.createprofessorlist()
+Print(List)
+
+temp = RateMyProfScraper(1040)
+List = temp.createprofessorlist()
+Print(List)
+
+temp = RateMyProfScraper(1331)
+List = temp.createprofessorlist()
+Print(List)
+
+temp = RateMyProfScraper(361)
+List = temp.createprofessorlist()
+Print(List)
+
+temp = RateMyProfScraper(1074)
+List = temp.createprofessorlist()
+Print(List)
+
+temp = RateMyProfScraper(1079)
+List = temp.createprofessorlist()
+Print(List)
+
+temp = RateMyProfScraper(1073)
+List = temp.createprofessorlist()
+Print(List)
+
+temp = RateMyProfScraper(269)
+List = temp.createprofessorlist()
+Print(List)
+
+temp = RateMyProfScraper(340)
+List = temp.createprofessorlist()
+Print(List)
+
+temp = RateMyProfScraper(1072)
+List = temp.createprofessorlist()
+Print(List)
+
+temp = RateMyProfScraper(1256)
+List = temp.createprofessorlist()
+Print(List)
+
+temp = RateMyProfScraper(1101)
+List = temp.createprofessorlist()
+Print(List)
+
+temp = RateMyProfScraper(1112)
+List = temp.createprofessorlist()
+Print(List)
+
+temp = RateMyProfScraper(509)
+List = temp.createprofessorlist()
+Print(List)
+
+temp = RateMyProfScraper(129)
+List = temp.createprofessorlist()
+Print(List)
+
+temp = RateMyProfScraper(186)
+List = temp.createprofessorlist()
+Print(List)
+
+temp = RateMyProfScraper(1255)
+List = temp.createprofessorlist()
+Print(List)
+
+temp = RateMyProfScraper(124)
+List = temp.createprofessorlist()
+Print(List)
